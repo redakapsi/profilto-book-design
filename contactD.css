@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Delius", cursive;
+}
+
+body {
+    background-image: url("High_resolution_wallpaper_background_ID_77700445795-1200x675.webp");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.con {
+    width: 95%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px auto;
+}
+
+.con h1 {
+    font-size: 50px;
+    color: #222;
+}
+
+.con a {
+    text-decoration: none;
+    font-size: 22px;
+    color: #222;
+    font-weight: bold;
+    padding: 6px 12px;
+    transition: 0.3s;
+    border-radius: 12px;
+}
+
+.con a:hover {
+    background: rgba(0, 0, 0, 0.1);
+    transform: scale(1.1);
+}
+
+.center {
+    width: 60%;
+    max-width: 600px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+}
+
+.center h2 {
+    font-size: 28px;
+    color: #111;
+    margin-bottom: 10px;
+}
+
+.center form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.center input {
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    outline: none;
+}
+
+.center button {
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    background: #222;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.center button:hover {
+    background: #444;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.socials svg {
+    width: 35px;
+    height: 35px;
+    fill: #111;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.socials svg:hover {
+    transform: scale(1.2);
+    fill: #555;
+}
