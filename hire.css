@@ -43,6 +43,8 @@ body {
     outline: none;
     border: none;
     transition: all .5s ease;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 form label {
@@ -52,6 +54,8 @@ form label {
     text-align: center;
     font-weight: bold;
     font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 #dis {
@@ -105,4 +109,21 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+@media (max-width: 430px) {
+    .con {
+        width: 90%;
+    }
+    .con input,
+    button {
+        width: 90%;
+        max-width: none;
+    }
+}
+
+@media (min-width: 431px) and (max-width: 1004px) {
+    .con {
+        width: 70%;
+    }
 }
